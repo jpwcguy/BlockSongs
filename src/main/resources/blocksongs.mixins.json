@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.ethannetwork.blocksongs.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientWorldMixin"
+  ]
+}
