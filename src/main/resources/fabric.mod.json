@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "blocksongs",
+  "version": "${version}",
+  "name": "BlockSongs",
+  "description": "Simplicity at its finest",
+  "authors": [
+    "jpwcguy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/blocksongs/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.ethannetwork.blocksongs.BlockSongsClient"
+    ]
+  },
+  "mixins": [
+    "blocksongs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
