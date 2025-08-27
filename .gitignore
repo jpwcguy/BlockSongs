@@ -1,3 +1,6 @@
+.gitignore
+
+
 # User-specific stuff
 .idea/
 
@@ -5,6 +8,7 @@
 *.ipr
 *.iws
 
+gradle/
 # IntelliJ
 out/
 # mpeltonen/sbt-idea plugin
